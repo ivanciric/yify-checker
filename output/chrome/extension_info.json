@@ -1,0 +1,19 @@
+{
+    "content_scripts": [], 
+    "description": "Gets the latest movie from Yify. Checks for new movies every minute.", 
+    "creator": "Hamato", 
+    "framework_version": "1.8.0 3dc957b83b36", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://hamato.yoshi.tech", 
+    "version": "0.0.1", 
+    "framework_package_id": "dev", 
+    "browser_button": {
+        "caption": "Hamato", 
+        "tooltipText": "YifyChecker", 
+        "icon": "icons/button.png"
+    }, 
+    "id": "cbailnephleiilbfgdjpkimnmedknjkf", 
+    "name": "YifyChecker"
+}
